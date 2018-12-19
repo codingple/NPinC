@@ -12,4 +12,7 @@ The algorithm, in short, gets the local optimum as selecting the subregion with 
 "Citys.txt" is the input textfile. Each line consists of the city name, longitude, and latitude. It assumes that the first line is the start.  
   
 ### Details
-* **Head of the example**  
+* **Head of an example**  
+![Head](./image/np_head.PNG)  
+&nbsp
+First, it shows the list of cities and the coordinates.
