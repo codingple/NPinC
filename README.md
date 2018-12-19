@@ -14,8 +14,15 @@ The algorithm, in short, gets the local optimum as selecting the subregion with 
 ### Details
 * **Head of an example**  
 &nbsp;  
-&nbsp;  
 ![Head](./image/np_head.PNG)  
 &nbsp;  
+First, it shows the list of cities and the coordinates. In the NP method, it shows _Index of region_, _the random routes and distance_, and _the promising region_. The _Index of region_ is the depth of the subregion. In this case, K is the most promising next city on the optimal cost.  
+* **Body of an example**  
 &nbsp;  
-First, it shows the list of cities and the coordinates.
+![Body](./image/np_body.PNG)  
+&nbsp;  
+If the randomly generated route without K is the most promising, then the K is unselected and back to the previous depth. In 3rd iteration, the first city K is replaced with F. As the depth is deeper, the number of the randomly generated route without the selected cities is larger.  
+&nbsp;  
+![Rear](./image/np_rear.PNG)  
+&nbsp;  
+Finally, the most promising trajectory is compared with the random routes. And this program shows the final order and the cost.
