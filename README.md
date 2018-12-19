@@ -13,7 +13,7 @@ The algorithm, in short, gets the local optimum as selecting the subregion with 
   
 ### Details
 * **Head of an example**  
-&nbsp;
+&nbsp;&nbsp;
 ![Head](./image/np_head.PNG)  
-&nbsp;
+&nbsp;&nbsp;
 First, it shows the list of cities and the coordinates.
