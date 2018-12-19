@@ -160,13 +160,13 @@ void recusive_NP ( city *cmpr, int reg, city *TER, int *iteration, city *cfr, in
 				printf("\n\n!!!!!!!!!!!!!!!!!!!!!!!\n");
 				printf("       Backtracking");
 				printf("\n!!!!!!!!!!!!!!!!!!!!!!!\n\n");
-
+/*
 				free(sol);
 				free(cmpr2);
 				free(cfr2);
 				free(check_overlap);
 				free(check_overlap2);
-
+*/
 				sol = NULL;
 				cmpr2 = NULL;
 				cfr2 = NULL;
