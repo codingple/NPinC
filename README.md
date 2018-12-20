@@ -1,5 +1,5 @@
 # NPinC
-#### An implementation of Nested Partition Algorithm for TSP problem in C  
+#### An implementation of Nested Partition Algorithm for TSP in C  
 
 ### Description
 This program solves Traveling Salesman Problem using Nested Partition.
